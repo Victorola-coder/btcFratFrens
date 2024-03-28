@@ -1,7 +1,35 @@
+import {
+  createBrowserRouter,
+  Outlet,
+  RouterProvider,
+  ScrollRestoration,
+} from "react-router-dom";
+import { useEffect } from "react";
+import { Home, NotFound } from "./pages";
+import { Scroll } from "./animation";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    children: [
+      {
+        path: "*",
+        element: <NotFound />,
+      },
+    ],
+  },
+]);
+
 export default function App() {
-  return <div>
-    <h3 className="text-4xl text-red-400">
-      hello
-    </h3>
-  </div>;
+  useEffect(() => {
+    Scroll;
+  }, []);
+  return (
+    <>
+      <ScrollRestoration />
+      <Outlet />
+      <RouterProvider router={router} />
+    </>
+  );
 }
