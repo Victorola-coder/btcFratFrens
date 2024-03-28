@@ -1,11 +1,9 @@
 import { Twitter } from "./svg";
 
 export default function Footer() {
- 
-
   return (
     <footer>
-      <section className="flex flex-col items-center">
+      <section className="mt-[80px] flex flex-col items-center">
         <div className="flex flex-row items-center gap-[23px]">
           <Twitter />
           <h5 className="text-[#0F7BF8] font-inter font-semibold lg:text-[25.38px] lg:leading-[30.72px]">
