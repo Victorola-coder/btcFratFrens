@@ -8,3 +8,7 @@ interface SeoProps {
   url?: string;
   children?: React.ReactNode;
 }
+
+export interface SvgProps {
+  className?: string;
+}

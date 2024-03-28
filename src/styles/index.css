@@ -14,7 +14,8 @@ body {
   scroll-behavior: auto;
   overflow-x: hidden;
   overflow-y: scroll;
-  color: black;
+  color: white;
+  background-color: black;
   font-family: "", sans-serif;
 }
 

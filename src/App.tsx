@@ -2,7 +2,7 @@ import {
   createBrowserRouter,
   Outlet,
   RouterProvider,
-  ScrollRestoration,
+  // ScrollRestoration,
 } from "react-router-dom";
 import { useEffect } from "react";
 import { Home, NotFound } from "./pages";
@@ -27,7 +27,6 @@ export default function App() {
   }, []);
   return (
     <>
-      <ScrollRestoration />
       <Outlet />
       <RouterProvider router={router} />
     </>
