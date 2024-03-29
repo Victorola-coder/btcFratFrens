@@ -98,3 +98,8 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+.project {
+  background-repeat: no-repeat;
+  height: 577.55px;
+}
