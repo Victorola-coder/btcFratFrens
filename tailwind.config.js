@@ -10,6 +10,9 @@ export default {
         dot: ["DotGothic16", "sans-serif"],
         dosis: ["Dosis", "sans-serif"],
       },
+      backgroundImage: {
+        project: "url('images/projects.png')",
+      },
       keyframes: {
         "fade-effect": {
           "0%": {
